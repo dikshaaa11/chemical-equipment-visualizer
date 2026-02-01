@@ -67,11 +67,11 @@ def upload_csv(request):
             "type_distribution": df["Type"].value_counts().to_dict(),
         }
 
-        # ✅ Generate PDF AFTER summary exists
+        # Generate PDF AFTER summary exists
         pdf_path = generate_pdf(summary_data)
         summary_data["pdf_report"] = pdf_path
 
-        # ✅ Save upload history
+        # Save upload history
         UploadHistory.objects.create(
             total_equipment=summary_data["total_equipment"],
             avg_flowrate=summary_data["avg_flowrate"],

@@ -10,10 +10,10 @@ urlpatterns = [
     path("upload/", upload_csv),
     path("history/", upload_history),
 
-    # ✅ JWT AUTH
+    # JWT AUTH
     path("token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
 
-    # ✅ PDF download
+    # PDF download
     path("download/<str:filename>/", download_pdf),
 ]

@@ -6,7 +6,7 @@ This project was built as part of an internship / academic task to demonstrate f
 
 ---
 
-## 🚀 Features
+##  Features
 
 - JWT-based authentication (login required)
 - Upload CSV files containing chemical equipment data
@@ -21,7 +21,7 @@ This project was built as part of an internship / academic task to demonstrate f
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React (Vite)
@@ -39,7 +39,7 @@ This project was built as part of an internship / academic task to demonstrate f
 
 ---
 
-## 📂 Required CSV Format
+##  Required CSV Format
 
 The uploaded CSV file **must contain the following columns**:
 
@@ -51,7 +51,7 @@ The uploaded CSV file **must contain the following columns**:
 
 ---
 
-## 🔐 Authentication Flow
+##  Authentication Flow
 
 1. User logs in via frontend
 2. JWT access token is stored in browser
@@ -64,7 +64,7 @@ Unauthorized requests are rejected by the backend.
 
 ---
 
-## 📄 PDF Report
+##  PDF Report
 
 - Generated automatically after successful CSV upload
 - Stored on the backend server
@@ -72,7 +72,7 @@ Unauthorized requests are rejected by the backend.
 
 ---
 
-## 🖥️ How to Run Locally
+##  How to Run Locally
 
 ### Backend Setup
 

@@ -183,7 +183,7 @@ const login = async () => {
                   borderRadius: "6px",
                 }}
               >
-                📄 Download PDF Report
+                 Download PDF Report
               </button>
 
             </div>
