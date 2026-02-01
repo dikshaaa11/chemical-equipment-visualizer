@@ -66,40 +66,6 @@ Temperature
 
 ---
 
-##  Project Structure
-
-chemical-equipment-visualizer/
-│
-├── backend/
-│ ├── backend/
-│ │ ├── settings.py
-│ │ ├── urls.py
-│ │ └── wsgi.py
-│ ├── equipment/
-│ │ ├── views.py
-│ │ ├── urls.py
-│ │ ├── models.py
-│ │ ├── serializers.py
-│ │ └── pdf_utils.py
-│ └── manage.py
-│
-├── frontend/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ ├── package.json
-│ └── vite.config.js
-│
-├── sample_data/
-│ └── sample_equipment_data.csv
-│
-├── .gitignore
-├── README.md
-├── package.json
-└── main.js
-
----
-
 ##  How to Run Locally
 
 ### Backend Setup
