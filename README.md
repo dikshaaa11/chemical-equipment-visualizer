@@ -120,7 +120,7 @@ Users can securely download the report after authentication
 
 Media files are not committed to GitHub
 
- Git & Repository Notes
+Git & Repository Notes:
 
 node_modules/, media files, and binaries are excluded via .gitignore
 
@@ -128,7 +128,7 @@ No files larger than GitHub’s size limits are tracked
 
 Repository contains only clean source code and sample data
 
- Sample Data
+Sample Data:
 
 A sample CSV file is included:
 
