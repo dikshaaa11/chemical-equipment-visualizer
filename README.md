@@ -1,104 +1,106 @@
-Skip to content
-dikshaaa11
-chemical-equipment-visualizer
-Repository navigation
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-chemical-equipment-visualizer
-/
-README.md
-in
-main
+# Chemical Equipment Visualizer
 
-Edit
+A full-stack web application to upload CSV datasets of chemical equipment, analyze key statistics, visualize equipment distributions, and generate secure PDF summary reports.
 
-Preview
-Indent mode
+---
 
-Spaces
-Indent size
+##  Overview
 
-2
-Line wrap mode
+This project allows users to:
+- Log in securely using JWT authentication
+- Upload CSV files containing chemical equipment data
+- View computed summary statistics
+- Visualize equipment type distribution using charts
+- Download an auto-generated PDF report
+- Track upload history
 
-Soft wrap
-Editing README.md file contents
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
-138
-139
-140
-141
-142
-143
-144
-145
-146
-147
-148
+---
+
+##  Tech Stack
+
+### Frontend
+- React
+- Vite
+- Chart.js
+- Axios
+
+### Backend
+- Django
+- Django REST Framework
+- JWT Authentication (SimpleJWT)
+- Pandas (CSV processing)
+- ReportLab (PDF generation)
+
+### Database
+- SQLite (default, for development)
+
+---
+
+##  Features
+
+-  JWT-based authentication
+-  CSV upload with validation
+-  Automatic data analysis:
+  - Total equipment count
+  - Average flowrate
+  - Average pressure
+  - Average temperature
+  - Equipment type distribution
+-  Interactive bar chart visualization
+-  Secure PDF report generation and download
+-  Upload history tracking
+-  No large files or binaries committed to GitHub
+
+---
+
+##  Required CSV Columns
+
+Your CSV file **must** contain the following columns:
+
+Equipment Name
+Type
+Flowrate
+Pressure
+Temperature
+
+
+---
+
+##  Project Structure
+
+chemical-equipment-visualizer/
+│
+├── backend/
+│ ├── backend/
+│ │ ├── settings.py
+│ │ ├── urls.py
+│ │ └── wsgi.py
+│ ├── equipment/
+│ │ ├── views.py
+│ │ ├── urls.py
+│ │ ├── models.py
+│ │ ├── serializers.py
+│ │ └── pdf_utils.py
+│ └── manage.py
+│
+├── frontend/
+│ ├── src/
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ ├── package.json
+│ └── vite.config.js
+│
+├── sample_data/
+│ └── sample_equipment_data.csv
+│
+├── .gitignore
+├── README.md
+├── package.json
+└── main.js
+
+---
+
+##  How to Run Locally
 
 ### Backend Setup
 
