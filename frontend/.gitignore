@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.sqlite3
+
+# Django media
+backend/media/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+
+# Electron
+*.exe
+*.dmg
+*.AppImage
+
+# Env
+.env
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/

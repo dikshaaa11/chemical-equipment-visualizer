@@ -1,0 +1,24 @@
+{
+  "name": "chemical-equipment-visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dikshaaa11/chemical-equipment-visualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dikshaaa11/chemical-equipment-visualizer/issues"
+  },
+  "homepage": "https://github.com/dikshaaa11/chemical-equipment-visualizer#readme",
+  "devDependencies": {
+    "electron": "^40.1.0"
+  }
+}
